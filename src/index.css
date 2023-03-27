@@ -1,0 +1,57 @@
+body {
+  min-height: 100vh;
+  background-color: #343a40 !important;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto {
+  color: #fff;
+  text-align: center;
+}
+
+.component {
+  height: 100vh;
+}
+
+.header {
+  background-image: url("./src/assets/backgroundImage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.header img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.header h1 {
+  color: #fff !important;
+  text-align: right;
+  margin: 0;
+
+}
+
+
+/*Confugurações para ficar mais agradavel de ler pelo celular*/
+@media screen and (max-width: 800px) {
+
+  .header h1,
+  h2 {
+    color: #fff !important;
+    text-align: center;
+    margin: 0;
+
+  }
+}
